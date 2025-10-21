@@ -1,4 +1,4 @@
-package lab4;
+package shapes;
 
 public class Point {
 	double x;

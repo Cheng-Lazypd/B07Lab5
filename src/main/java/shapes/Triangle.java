@@ -1,4 +1,4 @@
-package lab4;
+package shapes;
 
 public class Triangle {
 	Point A;
