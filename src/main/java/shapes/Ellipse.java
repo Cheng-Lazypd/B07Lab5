@@ -1,7 +1,5 @@
 package shapes;
 
-import java.awt.Point;
-
 public class Ellipse {
 	private Point P1;//focus of the ellipse
 	private Point P2;
@@ -22,11 +20,5 @@ public class Ellipse {
 		double c = this.P1.distance(this.P2)/2;
 		double b = Math.sqrt(this.a*this.a - c*c);
 		return this.a*b*Math.PI;
-	}
-
-	public double ComputePerimeter(){
-		double c = this.P1.distance(this.P2)/2;
-		double b = Math.sqrt(this.a*this.a - c*c);
-		return Math.PI*(3*(this.a + b) - Math.sqrt((3*this.a + b)*(this.a + 3*b)));
 	}
 }
